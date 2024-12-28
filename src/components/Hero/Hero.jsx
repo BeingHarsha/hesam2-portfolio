@@ -9,15 +9,17 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Harsha</h1>
         <p className={styles.description}>
-          I'm a Computer Science Graduate with 2+ years of Professional Experience in Data Science and Web Development. I am seeking for a job in Data Science Associate, Data Engineer, Machine Learning Engineer and Software Engineer roles.
+          <h2>Data Enthusiast & Web Developer</h2>
+          
         </p>
         <a href="mailto:esamsankeerthms@gmail.com" className={styles.contactBtn}>
           Contact Me
         </a>
       </div>
       <img
-        src={getImageURL("hero/heroImage.png")}
-        alt="Hero image of me"
+        src="assets/hero/heroImage.png" alt="Hero" 
+
+        
         className={styles.heroImg}
       />
       <div className={styles.topBlur} />

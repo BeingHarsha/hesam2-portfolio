@@ -9,42 +9,20 @@ export const About = () => {
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <img
-          src={getImageURL("about/aboutImage.png")}
+          src="assets/about/aboutImage.png"
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />
-        <ul className={styles.aboutItems}>
-          <li className={styles.aboutItem}>
-            <img src={getImageURL("about/cursorIcon.png")} alt="Cursor icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
-              <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageURL("about/serverIcon.png")} alt="Server icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
-              <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageURL("about/cursorIcon.png")} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
-              <p>
-                I have designed multiple landing pages and have created design
-                systems as well
-              </p>
-            </div>
-          </li>
-        </ul>
+        <div className={styles.aboutItems}>
+      <p>I am a data enthusiast with a strong background in both data science and software engineering.
+         While my passion for data drives my enthusiasm for uncovering insights through analysis and machine learning,
+          I am equally eager to take on software engineering roles where I can contribute to building innovative and impactful 
+          software solutions. With my experience in data science, machine learning, and software development, I am seeking opportunities
+           that allow me to apply my skills in these areas. I am particularly interested in roles related to Data Science, Machine 
+           Learning, Software Engineering, or Software Development Engineering (SWE/SDE), where I can collaborate with
+            teams to solve complex problems and make a meaningful impact.
+</p>
+      </div>
       </div>
     </section>
   );
