@@ -1,29 +1,29 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
+    "role": "Web Dev Intern",
+    "organisation": "University of Illinois Springfield",
+    "startDate": "Nov, 2023",
+    "endDate": "Dec, 2024",
+    "experiences": ["Redesigned and Developed CHST's Website", "Automated Internal Review Process by reducing 70% of the workload. "],
+    "imageSrc": "assets/history/UIS.png"
   },
   {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
+    "role": "Data Science Associate",
+    "organisation": "Accenture",
+    "startDate": "Aug, 2022",
+    "endDate": "Aug, 2023",
+    "experiences": ["Created a CFO Dashboard for a US Based Cloud service provider", "Supervised a team of 20 for a prompt engineering project", "Developed Attribution Modelling modules to gain marketing insights that highly influence KPI"],
+    "imageSrc": "assets/history/accenture.png"
+  },
+  {
+    "role": "Analytics Intern",
+    "organisation": "BridgeI2I Solutions ( Later merged into Accenture's Applied Intelligence Team)",
+    "startDate": "Jan, 2022",
     "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
-  },
-  {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
     "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
+      "Gained insights for various media channels that effect ROI using marketing mix modelling", "Visualised sales trends w.r.t. various variables to gain insights."
+      
     ],
-    "imageSrc": "history/netflix.png"
+    "imageSrc": "assets/history/bi2i.png"
   }
 ]
