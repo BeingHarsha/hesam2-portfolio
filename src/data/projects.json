@@ -1,26 +1,23 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Ransomware Detection",
+    "imageSrc": "assets/projects/ransomware.jpg",
+    "description": "Cognizant's Research Project to Implement a mini-filter to detect ransomware",
+    "skills": ["Windows Driver Kit", "Kernel Programming", "C++"],
+    "source": "https://www.github.com/"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Used Cars Price Prediction",
+    "imageSrc": "assets/projects/cars.jpg",
+    "description": "Implemented an ML Model for Price Prediction of Used Cars in Indian Market using Random Forest Algorithm.",
+    "skills": ["Python", "Exploratory Data Analysis (EDA) ", "Machine Learning"],
+    "source": "https://github.com/BeingHarsha/UsedCars"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Grading Assistant",
+    "imageSrc": "assets/projects/grading.jpg",
+    "description": "Web Application developed using Django Framework to assist teachers to grade by following Agile practices",
+    "skills": ["MySQL", "Python", "Django", "Docker","JIRA"],
+    "source": "https://github.com/BeingHarsha/smart_garce_mark_calcluator"
   }
 ]

@@ -24,11 +24,10 @@
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
-  );
+  background:
+    rgba(255, 255, 255);
+    
+
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -48,9 +47,9 @@
   font-weight: 600;
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-  position: relative;
-  overflow: hidden;
-  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  position: relative; /* For the pseudo-element positioning */
+  overflow: hidden; /* Hide the sliding effect outside the button */
+  transition: color 0.3s ease, background-color 0.3s ease; /* Added transition for smooth color change */
 }
 
 .contactBtn::before {
@@ -60,19 +59,24 @@
   left: -100%;
   width: 100%;
   height: 100%;
-  background-color: #fff; /* White sliding background */
-  z-index: -1; /* Ensures it stays behind the button text */
-  transition: left 0.3s ease-in-out;
-}
-
-.contactBtn:hover::before {
-  left: 0; /* Slide the white background in */
+  background-color: #ed3514; /* The color of the sliding effect */
+  transition: left 0.3s ease; /* Transition for sliding effect */
 }
 
 .contactBtn:hover {
-  color: #ff6347; /* Orange text on hover */
-  transform: scale(1.05); /* Optional: slight zoom effect */
+  color: #ed3514; /* Change text color to orange */
+  background-color: #ffffff; /* Change background to white */
 }
+
+.contactBtn:hover::before {
+  left: 0; /* Move the pseudo-element from left to right */
+}
+
+/* Ensure contrast of text when hovered over */
+.contactBtn:hover {
+  color: #ed3514; /* Orange text color */
+}
+
 
 
 .heroImg {
@@ -98,33 +102,7 @@
   }
 }
 
-.topBlur {
-  position: absolute;
-  width: 50vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 350px;
-  top: -128px;
-  left: -10vw;
-  border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
-  filter: blur(100px);
-  z-index: 0;
-}
 
-.bottomBlur {
-  position: absolute;
-  width: 70vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 250px;
-  top: 246px;
-  right: -25vw;
-  border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
-  filter: blur(100px);
-  z-index: 0;
-}
 
 @media screen and (max-width: 830px) {
   .container {

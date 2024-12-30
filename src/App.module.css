@@ -1,8 +1,14 @@
 @import "./vars.css";
 .App{
-    background: var(--color-bg);
+    background: linear-gradient(135deg, #001f3d, #4e88d7);
+
+
+
+
+      
+
     width: 100%;
     height: 100%;
-    color: white;
+    color: black;
 
 }

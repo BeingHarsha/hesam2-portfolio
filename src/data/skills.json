@@ -31,5 +31,43 @@
   {
     "title": "VueJS",
     "imageSrc": "assets/skills/VueJS.png"
+  },
+  {
+    "title": "PowerBI",
+    "imageSrc": "assets/skills/PowerBI.png"
+  },
+  {
+    "title": "Drupal",
+    "imageSrc": "assets/skills/drupal.png"
+  },
+  {
+    "title": "Django",
+    "imageSrc": "assets/skills/django.png"
+  },
+  {
+    "title": "Tensorflow",
+    "imageSrc": "assets/skills/tensorflow.png"
+  },
+  {
+    "title": "Docker",
+    "imageSrc": "assets/skills/docker.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "assets/skills/git.png"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "assets/skills/aws.png"
+  },
+  {
+    "title": "Redis",
+    "imageSrc": "assets/skills/redis.webp"
+  },
+  {
+    "title": "Scikit-Learn",
+    "imageSrc": "assets/skills/scikit.png"
   }
+
+
 ]
