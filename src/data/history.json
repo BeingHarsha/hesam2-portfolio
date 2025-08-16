@@ -12,7 +12,7 @@
     "organisation": "Accenture",
     "startDate": "Aug, 2022",
     "endDate": "Aug, 2023",
-    "experiences": ["Created a CFO Dashboard for a US Based Cloud service provider", "Supervised a team of 20 for a prompt engineering project", "Developed Attribution Modelling modules to gain marketing insights that highly influence KPI"],
+    "experiences": ["Created a CFO Dashboard for a US Based Cloud service provider", "Supervised a team of 20 for a prompt engineering project", "Developed Attribution Modelling modules to gain marketing insights that highly influence KPI","Pre-processed corpus data through tokenization,stemming , lemmatization and stop-word removal, and other NLP Pre-processing techniques"],
     "imageSrc": "assets/history/accenture.png"
   },
   {
